@@ -1,0 +1,41 @@
+body{
+background: white;
+}
+
+
+h1{
+background-color: yellow;
+color: purple;
+text-align: right;
+}
+
+ol li {
+  color:pink;
+}
+
+
+.urgent{
+  font-style: bold;
+  font-size: 2em;
+  color: red;
+}
+
+.blue{
+  color:blue
+}
+
+.responsive{
+  max-width:100%;
+
+}
+
+.sidebyside img {
+  width:50%
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
